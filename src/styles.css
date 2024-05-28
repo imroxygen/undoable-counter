@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.user-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  height: 40px;
+  width: 60px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background-color: purple;
+  color: aliceblue;
+  font-size: 20px;
+  cursor: pointer;
+}
+.history-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.history-container > h1 {
+  color: rgb(159, 100, 100);
+}
+.history {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  overflow-y: auto;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
